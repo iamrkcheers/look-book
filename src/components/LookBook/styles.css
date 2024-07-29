@@ -1,0 +1,28 @@
+.look-book {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: transparent;
+}
+
+.nav-button {
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 100vh;
+  width: 20%;
+  z-index: 1000;
+}
+
+.nav-button:focus {
+  outline: none !important;
+}
+
+.nav-button:active {
+  background-color: transparent;
+  color: transparent !important;
+  outline: none !important;
+}

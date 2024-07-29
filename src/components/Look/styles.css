@@ -1,0 +1,32 @@
+.look {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 60px);
+  top: 60px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.left-button {
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.right-button {
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+  .look {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+}

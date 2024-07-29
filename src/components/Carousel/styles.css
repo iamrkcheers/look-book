@@ -1,0 +1,48 @@
+.carousel {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+.carousel-card {
+  flex: 0 0 auto;
+  width: 100px;
+  height: 150px;
+  margin: 0 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.carousel-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-grow: 1;
+}
+
+.card-text {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  height: 15%;
+}
+
+.carousel-card.active {
+  border: 2px solid #fff;
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "legends": [
+      {
+        "text": "Product 1",
+        "top": "20%",
+        "left": "30%",
+        "productId": 1,
+        "image": "catalogue/products/product01.jpg"
+      },
+      {
+        "text": "Product 2",
+        "top": "50%",
+        "left": "70%",
+        "productId": 2,
+        "image": "catalogue/products/product02.jpg"
+      }
+    ],
+    "items": [
+      {
+        "type": "image",
+        "src": "catalogue/looks/look01/images/image01.jpg"
+      },
+      {
+        "type": "image",
+        "src": "catalogue/looks/look01/images/image02.jpg"
+      },
+      {
+        "type": "image",
+        "src": "catalogue/looks/look01/images/image03.jpg"
+      },
+      {
+        "type": "image",
+        "src": "catalogue/looks/look01/images/image04.jpg"
+      },
+      {
+        "type": "video",
+        "src": "catalogue/looks/look01/videos/video01.mp4"
+      },
+      {
+        "type": "video",
+        "src": "catalogue/looks/look01/videos/video02.mp4"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "legends": [
+      {
+        "text": "Product 3",
+        "top": "20%",
+        "left": "30%",
+        "productId": 3,
+        "image": "catalogue/products/product03.jpg"
+      },
+      {
+        "text": "Product 4",
+        "top": "50%",
+        "left": "70%",
+        "productId": 4,
+        "image": "catalogue/products/product04.jpg"
+      }
+    ],
+    "items": [
+      {
+        "type": "image",
+        "src": "catalogue/looks/look02/images/image05.jpg"
+      },
+      {
+        "type": "image",
+        "src": "catalogue/looks/look02/images/image06.jpg"
+      },
+      {
+        "type": "image",
+        "src": "catalogue/looks/look02/images/image07.jpg"
+      },
+      {
+        "type": "video",
+        "src": "catalogue/looks/look02/videos/video03.mp4"
+      },
+      {
+        "type": "video",
+        "src": "catalogue/looks/look02/videos/video04.mp4"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "legends": [
+      {
+        "text": "Product 5",
+        "top": "20%",
+        "left": "30%",
+        "productId": 5,
+        "image": "catalogue/products/product05.jpg"
+      }
+    ],
+    "items": [
+      {
+        "type": "image",
+        "src": "catalogue/looks/look03/images/image08.jpg"
+      },
+      {
+        "type": "image",
+        "src": "catalogue/looks/look03/images/image09.jpg"
+      },
+      {
+        "type": "image",
+        "src": "catalogue/looks/look03/images/image10.jpg"
+      },
+      {
+        "type": "video",
+        "src": "catalogue/looks/look03/videos/video05.mp4"
+      }
+    ]
+  }
+]
